@@ -10,8 +10,6 @@ def crop(path_to_image, x, y, save_path):
     crop_height = img_height / y
     save_file_name = os.path.splitext(basename(path_to_image))[0]
     save_file_extension = os.path.splitext(basename(path_to_image))[1]
-    print("HERE2"+save_file_name)
-    print("HERE3"+save_file_extension)
     count = 0
     for i in range(x):
         for j in range(y):
