@@ -12,7 +12,7 @@ Install Pillow via pip:
 
 # How to use
 ```Python
-crop("./1.png", 3, 4, "./")
+crop('./1.png', 3, 4, './')
 ```
 
 # Result
@@ -25,3 +25,9 @@ Before:
 After:
 
 ![](./Splitted.JPG)
+
+You may also use
+```Python
+crop('./1.png',3,4,'./',True)
+```
+to crop rows first.
